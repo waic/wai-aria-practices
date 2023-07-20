@@ -53,13 +53,9 @@ lang: en
           <div class="top-box">
             <div class="top-detail-1 detail-1"></div>
             <div class="detail-2"></div>
-            <h1>ARIA Authoring Practices Guide (APG) Home</h1>
-            <p>
-        Learn to use the accessibility semantics defined by the Accessible Rich Internet Application (ARIA) specification to create accessible web experiences.
-        This guide describes how to apply accessibility semantics to common design patterns and widgets.
-        It provides design patterns and functional examples complemented by in-depth guidance for fundamental practices.
-      </p>
-            <a href="patterns/" class="button-link button-link-white">View Patterns</a>
+            <h1>ARIA オーサリング プラクティス ガイド (APG) ホーム</h1>
+            <p>この文書は、<a href="https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190207/">2019 年 2 月 7 日付けの W3C ワーキンググループノートWAI-ARIA Authoring Practices 1.1</a><b style="color : red ; font-size: 1.4em;">（ここに作業単位（管理されてるファイル単位）で、翻訳元のコミット番号を記す？ by 今井）</b>について、<a href="https://waic.jp/committee/wg4/">ウェブアクセシビリティ基盤委員会 (WAIC) の翻訳ワーキンググループ</a>の責任において翻訳・公開しているものです。この文書の正式版は、W3C のサイトにある英語版です。正確な内容については、W3C が公開している原文 (英語) をご確認ください。また、あくまで参考情報であり、翻訳上の誤りが含まれていることがあります。翻訳上の誤りを見つけられた場合は、WAIC翻訳ワーキンググループにて対応いたしますので、<a href="https://docs.google.com/forms/d/e/1FAIpQLSdIpvogLx8kGIMewhQ6MzhG2pOCQZ50iIBViGg8pUrRJuslKg/viewform?entry.685195438=https%3A%2F%2Fwaic.jp%2fdocs%2fNOTE-wai-aria-practices-1.1-20190207" id="file-issue">翻訳に関するコメント (Google フォーム)</a>からご連絡ください。</p>
+            <a href="https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190207/" class="button-link button-link-white">2019 年 2 月 7 日付けの W3C ワーキンググループノートWAI-ARIA Authoring Practices 1.1</a>
           </div>
           <img alt="A laptop screen fills with an accessibility icon and emits a checkmark." src="../../content-images/wai-aria-practices/images/index-1.svg">
         </div>
@@ -70,53 +66,52 @@ lang: en
     <div class="white-section">
       <div class="centered">
         <div class="resource-detail-4 detail-4"></div>
-        <h2>APG Resources</h2>
-        <p>Building blocks that help you make the web accessible</p>
+        <h2>APG リソース</h2>
+        <p>ウェブをアクセシブルにするために役立つビルディングブロック</p>
       </div>
       <div class="contained margin-fix">
         <div class="resource-item">
                 <div class="resource-item-content">
-                  <h3>Design Patterns and Examples</h3>
+                  <h3>デザインパターンとその例</h3>
                   <p>
                     
-            Learn how to make accessible web components and widgets with ARIA roles, states and properties and by implementing keyboard support.
-            One or more ways of implementing each pattern is demonstrated with a functional example.
+            ARIAのロール、ステート、プロパティを使用し、キーボードサポートを実装することで、アクセシブルなWebコンポーネントやウィジェットを作成する方法を紹介します。各パターンを実装する1つまたは複数の方法を、機能的な例で説明します。
           
                   </p>
-                  <a href="patterns/" aria-label="Learn more about APG patterns and examples" class="button-link">Learn More</a>
+                  <a href="patterns/" aria-label="Learn more about APG patterns and examples" class="button-link">詳細はこちら</a>
                 </div>
                 <div class="resource-item-img">
                   <img alt="A menagerie of widgets." src="../../content-images/wai-aria-practices/images/index-2.svg">
                 </div>
               </div><div class="resource-item">
                 <div class="resource-item-content">
-                  <h3>Use ARIA Landmarks</h3>
+                  <h3>ARIAランドマークを使う</h3>
                   <p>
-                    Learn how to use HTML sectioning elements and ARIA landmark roles to make it easy for assistive technology users to understand the meaning of the layout of a page.
+                    HTMLのセクショニング要素とARIAのランドマークロールを使用して、支援技術ユーザーがページのレイアウトの意味を簡単に理解できるようにする方法を紹介します。
                   </p>
-                  <a href="practices/landmark-regions/" aria-label="Learn more about ARIA landmarks" class="button-link">Learn More</a>
+                  <a href="practices/landmark-regions/" aria-label="Learn more about ARIA landmarks" class="button-link">詳細はこちら</a>
                 </div>
                 <div class="resource-item-img">
                   <img alt="A document flies apart into chunks." src="../../content-images/wai-aria-practices/images/index-3.svg">
                 </div>
               </div><div class="resource-item">
                 <div class="resource-item-content">
-                  <h3>Providing Accessible Names and Descriptions</h3>
+                  <h3>アクセシブルな名称と説明文の提供</h3>
                   <p>
-                    Providing elements with accessible names and, where appropriate, accessible descriptions is one of the most important responsibilities authors have when developing accessible web experiences.
+                    要素にアクセシブルな名前をつけ、必要に応じてアクセシブルな記述をすることは、アクセシブルなウェブ体験を開発する際に作者が負う最も重要な責任の1つです。
                   </p>
-                  <a href="practices/names-and-descriptions/" aria-label="Learn more about accessible names and descriptions" class="button-link">Learn More</a>
+                  <a href="practices/names-and-descriptions/" aria-label="Learn more about accessible names and descriptions" class="button-link">詳細はこちら</a>
                 </div>
                 <div class="resource-item-img">
                   <img alt="Indicators delve inside a document." src="../../content-images/wai-aria-practices/images/index-4.svg">
                 </div>
               </div><div class="resource-item">
                 <div class="resource-item-content">
-                  <h3>And So Much More...</h3>
+                  <h3>そして、さらに多くのことを...。</h3>
                   <p>
-                    Learn about other fundamental practices related to correctly using accessibility semantics, developing keyboard interfaces, and more.
+                    その他、アクセシビリティ・セマンティックの正しい使い方、キーボード・インターフェースの開発などに関する基本的なプラクティスについて学びます。
                   </p>
-                  <a class="button-link" href="practices/" aria-label="Learn more about APG practices">Learn More</a>
+                  <a class="button-link" href="practices/" aria-label="Learn more about APG practices">詳細はこちら</a>
                 </div>
                 <div class="resource-item-img">
                   <img alt="A box with an accessibility label is chock full of widgets and document bits." src="../../content-images/wai-aria-practices/images/index-5.svg">
@@ -128,12 +123,12 @@ lang: en
     <div class="white-section">
       <div class="centered margin-fix">
         <h2 class="collaboration-h2">
-          Get Involved
+          参加する
         </h2>
         <p class="collaboration-p">
           
-        The APG Task Force relies on broad community representation and participation to continuously improve the usefulness and quality of the APG.
-        There are a variety of ways you can get involved and help promote development of accessible experiences.
+        APGタスクフォースは、APGの有用性と品質を継続的に向上させるために、幅広いコミュニティの代表と参加に依存しています。
+        アクセシブルな体験の開発を促進するために、さまざまな方法で参加することができます。
       
         </p>
       </div>
@@ -141,22 +136,22 @@ lang: en
         
                   <div class="collaboration-item">
                     <img alt="An icon showing three nodes connecting." src="../../content-images/wai-aria-practices/images/index-6.svg">
-                    <h3>Join the Task Force</h3>
+                    <h3>タスクフォースに参加する</h3>
                     <p>
-            To join the APG Task Force, individuals need to first join the W3C ARIA Working Group.
-            Participants are expected to actively contribute to the work of the task force.
+            APGタスクフォースに参加するには、まずW3C ARIAワーキンググループに参加する必要があります。
+            参加者は、タスクフォースの作業に積極的に貢献することが期待されます。
           </p>
-                    <a rel="noopener noreferrer" target="_blank" href="https://www.w3.org/WAI/ARIA/task-forces/practices/">Learn more about the work of the task force and how to join</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.w3.org/WAI/ARIA/task-forces/practices/">タスクフォースの活動内容や参加方法について詳しくはこちら</a>
                   </div>
                 
                   <div class="collaboration-item">
                     <img alt="An icon showing two human shapes carrying a burden." src="../../content-images/wai-aria-practices/images/index-7.svg">
-                    <h3>Contribute via GitHub</h3>
+                    <h3>GitHubで貢献する</h3>
                     <p>
-            Many valuable contributions are made by people who find or raise issues of interest in our GitHub repository and then submit proposed changes via a GitHub pull request.
-            If you choose this path, please start by studying our guidelines for contributing to the repository and maintaining code quality.
+            多くの貴重な貢献は、私たちのGitHubリポジトリで興味のある問題を見つけたり提起したりして、GitHubプルリクエストで変更案を提出する人々によって行われています。
+            この方法を選択する場合は、リポジトリへの貢献とコードの品質を維持するためのガイドラインを学ぶことから始めてください。
           </p>
-                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/w3c/aria-practices">View ReadMe in the GitHub repository</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/w3c/aria-practices">GitHubのリポジトリでReadMeを見る</a>
                   </div>
                 
 
@@ -164,12 +159,12 @@ lang: en
           <div class="collaboration-detail-4 detail-4"></div>
           <img alt="A notification bell icon appears over an email icon." src="../../content-images/wai-aria-practices/images/index-8.svg">
           <div>
-            <h3>Mailing Lists</h3>
+            <h3>メーリングリスト</h3>
             <p>
-            The APG Task Force uses the public aria-practices mailing list for email discussion.
-            Meeting announcements, agendas, and links to minutes are sent to the mailing list.
-            While GitHub issues are the preferred place to discuss APG content, the mailing list is available to anyone who would prefer to communicate with the APG Task Force via email.
-          </p><p><a rel="noopener noreferrer" target="_blank" href="https://lists.w3.org/Archives/Public/public-aria-practices/">View the aria-practices mailing list archive</a></p>
+            APGタスクフォースは、公開されているaria-practicesメーリングリストを電子メールでの議論に使用しています。
+            会議の告知、議題、議事録へのリンクはメーリングリストに送信されます。
+            GitHubのissueはAPGのコンテンツを議論するのに適した場所ですが、APGタスクフォースと電子メールでのコミュニケーションを希望する人はメーリングリストを利用することができます。
+          </p><p><a rel="noopener noreferrer" target="_blank" href="https://lists.w3.org/Archives/Public/public-aria-practices/">aria-practicesメーリングリストアーカイブを見る</a></p>
           </div>
         </div>
       </div>
